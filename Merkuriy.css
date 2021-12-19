@@ -1,0 +1,154 @@
+body {
+	background-color: #8B4513;
+}
+/*Текст*/
+.TEXT {
+	background-color: Chocolate;
+	padding: 15px;
+}
+.text {
+	width: 65%;
+	font-size: 17px;
+}
+p, ul {
+	font-size: 17px;
+}
+h1 {
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	width: 63%;
+}
+h2 {
+	border-bottom: 2px solid black;
+	width: 63%;
+	padding-bottom: 10px;
+}
+.h2 {
+	border-bottom: 2px solid black;
+	width: 72%;
+}
+a {
+	text-decoration-line: none;
+}
+a:hover {
+	text-decoration-line: underline;
+}
+/*Картинки*/
+	/*1-я картинка*/
+.img-Mercury {
+	background-image: url('Images/Mercury/Mercury.jpg');
+	width: 400px;
+	height: 393px;
+	transition: 0.5s;
+	position: relative;
+	top: 20%;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+.img-Mercury:hover {
+	background-image: url('Images/Mercury/Mercury.gif');
+}
+.fMercury {
+    float: right;
+    border: 1px solid black; 
+    padding: 10px;
+    margin-right: 10px;
+	margin-bottom: 10px;
+    background-color: white;
+   }
+ .fMercury figcaption {
+    margin: 0 auto 5px; 
+ }
+ figcaption {
+	text-align: center;
+	padding-top: 5px;
+}
+	/*Сравнение строения*/
+.construction {
+	background-image: url('Images/Mercury/M-img.jpg');
+	width: 920px;
+	height: 245px;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+.fMercury-construction {
+	display: block;
+	float: center;
+	border: 1px solid black; 
+    padding: 10px;
+    background-color: white;
+	width: 73.75%;
+}
+	/*Последняя картинка*/
+.img {
+	background-image: url('https://upload.wikimedia.org/wikipedia/ru/thumb/2/29/%D0%A0%D0%B0%D1%81%D1%81%D0%B2%D0%B5%D1%82_%D0%BD%D0%B0_%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D0%B8%D0%B8_%D0%B2_%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8_%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%B0.jpg/300px-%D0%A0%D0%B0%D1%81%D1%81%D0%B2%D0%B5%D1%82_%D0%BD%D0%B0_%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D0%B8%D0%B8_%D0%B2_%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8_%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%B0.jpg');
+	width: 300px;
+	height: 205px;
+	text-align: center;
+}
+.fImg {
+	float: right;
+    border: 1px solid black; 
+    padding: 10px;
+    margin-right: 10px;
+	margin-bottom: 10px;
+    background-color: white;
+}
+.figImg {
+	text-align: left;
+	padding-top: 5px;
+}
+ /*Список планет*/
+.planets {
+    overflow: hidden;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 25px;
+	transition: 3s;
+}
+.a-V:hover {
+    background-color: #FFD700;
+	padding: 10px;
+}
+.a-Ms:hover {
+    background-color: DarkRed;
+	padding: 10px;
+}
+.a-U:hover {
+    background-color: #DAA520;
+	padding: 10px;
+}
+.a-S:hover {
+    background-color: #F0E68C;
+	padding: 10px;
+}
+.a-Ur:hover {
+    background-color: #87CEFA;
+	padding: 10px;
+}
+.a-N:hover {
+    background-color: #1E90FF;
+	padding: 10px;
+}
+.a-Z {
+	color: blue;
+}
+.a-Z:hover {
+	background-color: ForestGreen;
+	padding: 10px;
+}
+.pl-h3 {
+	text-align: center;
+}
+
+.a-Z,
+.a-V,
+.a-Ms,
+.a-U,
+.a-S,
+.a-Ur,
+.a-N {
+	padding: 10px;
+}

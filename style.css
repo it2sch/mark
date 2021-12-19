@@ -1,0 +1,160 @@
+body {
+	background-color: #778899;
+}
+
+/*Картинки*/
+		/*Earth*/
+.img-Earth {
+	background-image: url('Images/Earth/Earth.jpg');
+	width: 409px;
+	height: 409px;
+	transition: 0.5s;
+	position: relative;
+	top: 20%;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+.img-Earth:hover {
+	background-image: url('Images/Earth/Earth.gif');
+}
+.fEarth {
+    float: right;
+    border: 1px solid black; 
+    padding: 5px;
+    margin-right: 10px;
+	margin-bottom: 10px;
+    background-color: white;
+   }
+ .fEarth figcaption {
+    margin: 0 auto 5px; 
+ }
+	/*Marble*/
+.Marble {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/300px-The_Earth_seen_from_Apollo_17.jpg");
+	border-radius: 10px;
+	width: 300px;
+	height: 300px;
+}
+.fMarble {
+    float: right;
+    border: 1px solid black; 
+    padding: 5px;
+    margin-right: 10px;
+	margin-bottom: 10px;
+    background-color: white;
+	position: relative;
+	bottom: 25px;
+}
+figcaption {
+	text-align: center;
+}
+/*Текст*/
+.text {
+	width: 65%;
+	font-size: 17px;
+}
+.TEXT {
+	background-color: LightSteelBlue;
+	padding: 15px;
+}
+p {
+	font-size: 17px;
+}
+h1 {
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	width: 63%;
+}
+h2 {
+	border-bottom: 2px solid black;
+	width: 63%;
+	padding-bottom: 10px;
+}
+.h2 {
+	border-bottom: 2px solid black;
+	width: 72%;
+}
+a {
+	text-decoration-line: none;
+}
+a:hover {
+	text-decoration-line: underline;
+}
+/*Таблица*/
+.caption {
+	text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #DCDCDC;
+  padding: 10px
+}
+
+th {
+  text-align: centre;
+  background-color: #A9A9A9;
+  padding: 10px;
+}
+table {
+	width: 100%;
+	text-align: center;
+}
+/*Список планет*/
+.planets {
+    overflow: hidden;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 25px;
+	transition: 3s;
+}
+.a-M {
+	color: blue;
+	padding: 10px;
+}
+
+.a-V,
+.a-Ms,
+.a-U,
+.a-S,
+.a-Ur,
+.a-N {
+	padding: 10px;
+}
+
+
+.a-M:hover {
+    background-color: Chocolate;
+	padding: 10px;
+}
+.a-V:hover {
+    background-color: #FFD700;
+	padding: 10px;
+}
+.a-Ms:hover {
+    background-color: DarkRed;
+	padding: 10px;
+}
+.a-U:hover {
+    background-color: #DAA520;
+	padding: 10px;
+}
+.a-S:hover {
+    background-color: #F0E68C;
+	padding: 10px;
+}
+.a-Ur:hover {
+    background-color: #87CEFA;
+	padding: 10px;
+}
+.a-N:hover {
+    background-color: #1E90FF;
+	padding: 10px;
+}
+.pl-h3 {
+	text-align: center;
+}
